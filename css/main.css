@@ -1,0 +1,68 @@
+div {
+    margin: 0;
+}
+
+.links{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.linkText{
+    color: black;
+    word-spacing:  0.2em;
+    text-decoration: none;
+}
+
+.headings{
+    display: block;
+    position: absolute;
+    background-image: url(../circle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 60%;
+    margin-left: -168px;
+    margin-top: -240px;
+    padding-top: 70px;
+}
+
+.mainimg{
+    max-width: 100%;
+    height: auto;
+}
+
+.name{
+    position: relative;
+    z-index: 2;
+    font-size: 34px;
+    color: white;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Arapey', serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 28px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.part1{
+    background-color: gray;
+}
+
+.part2{
+    background-color: gray;
+}
+
+.sub{
+    color: white;
+    position: relative;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
