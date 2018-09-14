@@ -17,7 +17,7 @@ div {
 .headings{
     display: block;
     position: absolute;
-    background-image: url(../circle.png);
+    background-image: url(../pics/circle.png);
     background-size: 100%;
     background-repeat: no-repeat;
     left: 50%;
