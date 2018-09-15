@@ -1,11 +1,32 @@
-div {
-    margin: 0;
+
+@media (min-width: 920px) {
+body{
+    background-image: url(../pics/bw.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+}
+
+@media (max-width: 920px) {
+body{
+    background-color: gray;
+    background-image: url(../pics/circle.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
 }
 
 .links{
-    padding-top: 50px;
     padding-bottom: 150px;
     text-align: center;
+}
+
+@media (min-width: 920px) {
+.links{
+    padding-top: 50px;
+}
 }
 
 .linkText{
@@ -14,18 +35,44 @@ div {
     text-decoration: none;
 }
 
+@media (max-width: 920px) {
+.linkText{
+    font-size: 20px;
+}
+}
+
+@media (min-width: 920px) {
 .headings{
     display: block;
     position: absolute;
-    background-image: url(../pics/circle.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    left: 50%;
     top: 60%;
+    left: 50%;
     margin-left: -168px;
     margin-top: -240px;
     padding-top: 70px;
+    background-image: url(../pics/circle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+}
+
+@media (max-width: 920px) {
+.headings{
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin-left: -190px;
+    margin-top: -240px;
+    padding-top: 70px;
+}
+}
+
+
+html {
+    height: 100%
+}
+ 
 
 .mainimg{
     max-width: 100%;
@@ -35,7 +82,6 @@ div {
 .name{
     position: relative;
     z-index: 2;
-    font-size: 34px;
     color: white;
     line-height: 1;
     letter-spacing: 0.2em;
@@ -47,6 +93,18 @@ div {
     margin-top: 28px;
     padding-left:30px;
     padding-right:30px;
+}
+
+@media (min-width: 920px) {
+.name{
+    font-size: 34px;
+}
+}
+
+@media (max-width: 920px) {
+.name{
+    font-size: 50px;
+}
 }
 
 .part1{
@@ -65,4 +123,16 @@ div {
     text-align: center;
     letter-spacing: 0.2em;
     font-weight: 300;
+}
+
+@media (min-width: 920px) {
+.name{
+    font-size: 34px;
+}
+}
+
+@media (max-width: 920px) {
+.name{
+    font-size: 50px;
+}
 }
